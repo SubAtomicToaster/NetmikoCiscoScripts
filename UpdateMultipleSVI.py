@@ -6,9 +6,7 @@ passwd = getpass.getpass('Please enter the password: ')
 
 
 # Define the device connection parameters
-devices_list = ['dev1']
-device_list = list()
-
+devices_list = open('file.txt')
 
 for device_ip in devices_list:      #Iterate through each device for site
     device = {
